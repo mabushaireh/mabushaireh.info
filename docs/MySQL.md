@@ -11,7 +11,7 @@ using MySQL just update configuration settings, for example:
 {
   "Blogifier": {
     "DbProvider": "MySql",
-    "ConnString": "server=<server.address>;userid=root;pwd=<root_password>;port=3306;database=blogifier_;sslmode=none;",
+    "ConnString": "server=localhost;userid=bloguser;pwd=Corp123!;port=3306;database=blogifier_;sslmode=none;",
     ...
   }
 }
