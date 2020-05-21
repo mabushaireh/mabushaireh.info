@@ -26,10 +26,10 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #666;
-  background-image: url('/home/img/sea2.webp');
-  background-size: cover;
+    height: 100%;
+    background-color: #666;
+    background-image: url('/home/img/jordan-jerash-gerasa-ruin.jpg');
+    background-size: cover;
 }
 
 body {
