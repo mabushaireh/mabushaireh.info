@@ -61,7 +61,7 @@ namespace Blogifier.Core.Extensions
             }
             else if (section.GetValue<string>("DbProvider") == "MySql")
             {
-                AppSettings.DbOptions = options => options.UseMySql(section.GetValue<string>("ConnString"), providerOptions => providerOptions.EnableRetryOnFailure());
+                AppSettings.DbOptions = options => options.UseMySql(section.GetValue<string>("ConnString"));
             }
             else if (section.GetValue<string>("DbProvider") == "Postgres")
             {
